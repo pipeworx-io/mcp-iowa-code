@@ -1,0 +1,32 @@
+{
+  "name": "@pipeworx/mcp-iowa-code",
+  "version": "0.1.0",
+  "description": "Iowa Code — state statutes by citation, historical edition, amendment",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "bin": {
+    "mcp-iowa-code": "bin/cli.js"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "iowa-code"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pipeworx-io/mcp-iowa-code.git"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-4800e4717a913df263d38f1c2dd9d38632692eae01c398cfa643af9d7063bb59",
+    "sourceCommit": "eb436cf60f06c9b79701a15cd1670609580544a5"
+  }
+}
