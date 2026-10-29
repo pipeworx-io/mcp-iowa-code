@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-iowa-code",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Iowa Code — state statutes by citation, historical edition, amendment history, and chapter/section topic search.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-iowa-code": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "iowa-code"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-iowa-code.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/iowa-code",
   "pipeworx": {
-    "sourceHash": "v1-09f0b77b03c91a3281e4baab9860310e9b470c3ad20ddefb43ce5da0453ef1d3",
-    "sourceCommit": "24e32b525f9c0b2fd7d94b519b08abb108cc11cd"
+    "mode": "gateway",
+    "slug": "iowa-code",
+    "gatewaySlug": "iowa-code",
+    "sourceHash": "v1-d2476512bf7bf17158cafb313c81876148c350107922c491fcfabf92833c7a0f",
+    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
   }
 }

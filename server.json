@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/iowa-code",
   "title": "Iowa Code",
   "description": "Iowa Code — state statutes by citation, historical edition, amendment history, and chapter/section…",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/iowa-code",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-iowa-code",
