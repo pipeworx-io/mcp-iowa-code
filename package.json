@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-iowa-code",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Iowa Code — state statutes by citation, historical edition, amendment history, and chapter/section topic search.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "iowa-code",
     "gatewaySlug": "iowa-code",
-    "sourceHash": "v1-d2476512bf7bf17158cafb313c81876148c350107922c491fcfabf92833c7a0f",
-    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
+    "sourceHash": "v1-6ffd09b0cfcfa72f25c4972fced69cac7c56c33b71efeefafc7c8e063681b342",
+    "sourceCommit": "0ca9712c0ac03bb0121cc7e81b202d0c45ac02ca"
   }
 }
